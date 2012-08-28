@@ -1,0 +1,89 @@
+/* Jumbotrons
+-------------------------------------------------- */
+
+/* Base class
+------------------------- */
+
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  margin-top: 17px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #1d1d1d; /* Old browsers */
+  background-image:url(../img/background1.jpg);
+  background-repeat: no-repeat;
+  height: 290px;
+}
+
+.jumbotron h1 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  line-height: 1;
+}
+
+.jumbotron p {
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+/* to make the text underneat the main h1 to seem a little nicer */
+#up {
+  font-size: 18px;
+}
+
+/* make the other icons with text match up with the lab picture that is a little too big */
+#paddown {
+  padding-top: 24px
+}
+
+#btndown {
+  margin-top:55px;
+}
+
+#cog {
+  text-align: center;
+  letter-spacing: 4px;
+  padding-top: 8px;
+  padding-bottom: 22px;
+}
+
+#some {
+  letter-spacing: 4px;
+  padding-top: 8px;
+  color: #351300;
+}
+
+#screenshot {
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+.bottombar {
+  background-image: url(../img/bottombar.jpg);
+  background-repeat: repeat-x;
+  height: 164px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer {
+  background-image: url(../img/footer.jpg);
+  background-repeat: repeat-x;
+  height: 221px;
+}
+
+.footerlink {
+  color: #717272;
+  font-size: 12px;
+}
+
+#tryitnow {
+  font-size: 24px;
+  color:#ffffff;
+  text-align: center;
+  padding-top: 35px;
+  font-weight: normal;
+}

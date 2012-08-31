@@ -7,31 +7,38 @@
 .jumbotron {
   position: relative;
   padding: 40px 0;
-  margin-top: 17px;
+  margin-top: 0px;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
   background: #1d1d1d; /* Old browsers */
   background-image:url(../img/background1.jpg);
   background-repeat: no-repeat;
-  height: 290px;
+  background-size: auto;
+  background-attachment: scroll;
+  height: auto;
+  width: auto;
+
 }
 
 .jumbotron h1 {
   font-size: 40px;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
   line-height: 1;
+  font-family: 'Metrophobic', sans-serif;
 }
 
 .jumbotron p {
   padding-top: 20px;
   font-size: 16px;
+  letter-spacing: 1px;
 }
 
 /* to make the text underneat the main h1 to seem a little nicer */
 #up {
-  font-size: 18px;
+  font-size: 16px;
+  padding-bottom: 0px;
 }
 
 /* make the other icons with text match up with the lab picture that is a little too big */
@@ -48,12 +55,16 @@
   letter-spacing: 4px;
   padding-top: 8px;
   padding-bottom: 22px;
+  font-family: 'Metrophobic', sans-serif;
+
 }
 
 #some {
   letter-spacing: 4px;
   padding-top: 8px;
   color: #351300;
+  font-family: 'Metrophobic', sans-serif;
+
 }
 
 #screenshot {
@@ -65,7 +76,7 @@
   background-image: url(../img/bottombar.jpg);
   background-repeat: repeat-x;
   height: 164px;
-  width: 100%;
+  width: auto;
   margin-top: 20px;
 }
 
